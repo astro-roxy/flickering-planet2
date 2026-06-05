@@ -135,6 +135,13 @@ const CITIES = [
     type: 'Overview', color: '#fff', isEdge: true
   },
   {
+    id: 'hanoi', name: 'Hanoi', country: 'Vietnam', color: '#00f2ff', type: 'Rapid Agglomeration',
+    lat: 21.0285, lng: 105.8542, zoom: 10, bounds: [[20.8000, 105.6000], [21.2500, 106.1000]], img: 'hanoi_timeline.gif',
+    trend: '+4.12% / year', mean: '8.4', area: '2,150 km²', pixels: '12,430',
+    desc: 'Hanoi tracks a highly structured infrastructural transformation across the Red River Delta. The moving frames capture economic corridors blooming outward along major transport links pushing toward Noi Bai International Airport.',
+    data: Array.from({length: N}, (_, i) => 3.2 + (i * 0.06) + Math.sin(i/3)*0.5)
+  },
+  {
     id: 'kyiv', name: 'Kyiv', country: 'Ukraine', color: '#ff4d4d', type: 'Geopolitical Grid Collapse',
     lat: 50.4501, lng: 30.5234, zoom: 10, bounds: [[50.2800, 30.2500], [50.6200, 30.8000]], img: 'kyiv.png',
     trend: '-6.22% / year', mean: '4.92', area: '1,137 km²', pixels: '8,296',
